@@ -1,0 +1,34 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.sub-title {
+  margin-top: 10px;
+}
+
+.description,
+.description-en {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.button-group {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
