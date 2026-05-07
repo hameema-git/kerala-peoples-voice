@@ -17,7 +17,7 @@ function Help() {
 
       <div className="row justify-content-center">
 
-        <div className="col-lg-8">
+        <div className="col-lg-7">
 
           <div
             className="card border-0 shadow-lg"
@@ -34,7 +34,7 @@ function Help() {
 
                 <div
                   style={{
-                    fontSize: "60px"
+                    fontSize: "65px"
                   }}
                 >
                   ❓
@@ -59,109 +59,161 @@ function Help() {
 
               {/* ABOUT */}
 
-              <div className="mb-5">
+              <div
+                className="p-4 mb-4"
+                style={{
+                  background:
+                    "#f4fff7",
+                  borderRadius: "22px"
+                }}
+              >
 
-                <h3 className="fw-bold text-success">
+                <h4 className="fw-bold text-success">
 
-                  🗳️ What is this platform?
+                  🗳️ About
 
-                </h3>
+                </h4>
 
                 <p
-                  className="mt-3"
+                  className="mt-3 mb-0"
                   style={{
-                    fontSize: "17px",
                     lineHeight: "1.9"
                   }}
                 >
 
-                  Kerala People's Voice is an independent
-                  public opinion platform where people can
-                  share their views about Kerala's future
-                  leadership and public mood.
+                  Kerala People's Voice is a public opinion platform.
+
+                  <br /><br />
+
+                  കേരളത്തിന്റെ ഭാവി നേതൃത്വത്തെ കുറിച്ചുള്ള
+                  ജനങ്ങളുടെ അഭിപ്രായങ്ങൾ രേഖപ്പെടുത്താനുള്ള
+                  ഒരു platform ആണ് ഇത്.
 
                 </p>
 
               </div>
 
-              {/* HOW IT WORKS */}
+              {/* HOW */}
 
-              <div className="mb-5">
+              <div
+                className="p-4 mb-4"
+                style={{
+                  background:
+                    "#eef6ff",
+                  borderRadius: "22px"
+                }}
+              >
 
-                <h3 className="fw-bold text-primary">
+                <h4 className="fw-bold text-primary">
 
-                  ⚙️ How does it work?
+                  ⚙️ How To Use
 
-                </h3>
+                </h4>
 
-                <div className="mt-4">
+                <div
+                  className="mt-3"
+                  style={{
+                    lineHeight: "2"
+                  }}
+                >
 
-                  <div className="mb-4">
+                  <p>
 
-                    <h5 className="fw-bold">
+                    1️⃣ Select candidate & district
 
-                      1️⃣ Submit Your Opinion
+                    <br />
 
-                    </h5>
+                    സ്ഥാനാർത്ഥിയും ജില്ലയും തിരഞ്ഞെടുക്കുക
 
-                    <p>
+                  </p>
 
-                      Select your preferred candidate,
-                      district and reason.
+                  <p>
 
-                    </p>
+                    2️⃣ Select reason / opinion
 
-                  </div>
+                    <br />
 
-                  <div className="mb-4">
+                    കാരണം / നിലപാട് തിരഞ്ഞെടുക്കുക
 
-                    <h5 className="fw-bold">
+                  </p>
 
-                      2️⃣ View Live Results
+                  <p>
 
-                    </h5>
+                    3️⃣ Submit your opinion
 
-                    <p>
+                    <br />
 
-                      See live public mood,
-                      district trends and analytics.
+                    അഭിപ്രായം രേഖപ്പെടുത്തുക
 
-                    </p>
+                  </p>
 
-                  </div>
+                  <p className="mb-0">
 
-                  <div className="mb-4">
+                    4️⃣ View live public opinion & analytics
 
-                    <h5 className="fw-bold">
+                    <br />
 
-                      3️⃣ Share Your Opinion
+                    Live public opinion & analytics കാണാം
 
-                    </h5>
+                  </p>
 
-                    <p>
+                </div>
 
-                      Download and share your opinion card
-                      on WhatsApp and social media.
+              </div>
 
-                    </p>
+              {/* FEATURES */}
 
-                  </div>
+              <div
+                className="p-4 mb-4"
+                style={{
+                  background:
+                    "#fff8e1",
+                  borderRadius: "22px"
+                }}
+              >
 
-                  <div className="mb-4">
+                <h4 className="fw-bold text-warning">
 
-                    <h5 className="fw-bold">
+                  ✨ Features
 
-                      4️⃣ Update Anytime
+                </h4>
 
-                    </h5>
+                <div
+                  className="mt-3"
+                  style={{
+                    lineHeight: "2"
+                  }}
+                >
 
-                    <p>
+                  <p>
 
-                      You can update your opinion anytime.
+                    📊 Live Results
 
-                    </p>
+                  </p>
 
-                  </div>
+                  <p>
+
+                    🏆 District Trends
+
+                  </p>
+
+                  <p>
+
+                    📈 Detailed Analytics
+
+                  </p>
+
+                  <p>
+
+                    📤 Shareable Opinion Cards
+
+                  </p>
+
+                  <p className="mb-0">
+
+                    🔄 Update Opinion Anytime
+
+                  </p>
 
                 </div>
 
@@ -170,57 +222,75 @@ function Help() {
               {/* IMPORTANT */}
 
               <div
-                className="p-4 mb-5"
+                className="p-4 mb-4"
                 style={{
                   background:
                     "#fff3cd",
-                  borderRadius: "20px"
+                  borderRadius: "22px"
                 }}
               >
 
-                <h4 className="fw-bold text-warning">
+                <h4 className="fw-bold text-danger">
 
                   ⚠️ Important
 
                 </h4>
 
-                <p className="mb-0 mt-3">
-
-                  This is NOT an official election survey
-                  or political polling organization.
-                  It is an independent public opinion platform.
-
-                </p>
-
-              </div>
-
-              {/* PRIVACY */}
-
-              <div className="mb-5">
-
-                <h3 className="fw-bold text-danger">
-
-                  🔒 Privacy
-
-                </h3>
-
-                <p
+                <div
                   className="mt-3"
                   style={{
-                    lineHeight: "1.9"
+                    lineHeight: "2"
                   }}
                 >
 
-                  No login is required.
-                  Personal identity information is not collected.
+                  <p>
 
-                </p>
+                    🗳️ One device = one opinion at a time
+
+                    <br />
+
+                    ഒരു ഉപകരണത്തിൽ നിന്ന് ഒരേസമയം
+                    ഒരു അഭിപ്രായം മാത്രം
+
+                  </p>
+
+                  <p>
+
+                    🔄 Opinion can be updated anytime
+
+                    <br />
+
+                    അഭിപ്രായം എപ്പോൾ വേണമെങ്കിലും മാറ്റാം
+
+                  </p>
+
+                  <p>
+
+                    🔒 No login required
+
+                    <br />
+
+                    Login ആവശ്യമില്ല
+
+                  </p>
+
+                  <p className="mb-0">
+
+                    📊 This is NOT an official election survey
+
+                    <br />
+
+                    ഇത് ഔദ്യോഗിക തിരഞ്ഞെടുപ്പ് സർവേ അല്ല
+
+                  </p>
+
+                </div>
 
               </div>
 
               {/* BUTTONS */}
 
-              <div className="d-grid gap-3">
+              <div className="d-grid gap-3 mt-5">
 
                 <button
                   className="btn btn-success py-3 rounded-4 fw-bold fs-5"
