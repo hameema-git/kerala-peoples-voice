@@ -50,7 +50,7 @@ function Vote() {
   ];
 
   const reasons = [
-
+   "Clear Stand/വ്യക്തമായ നിലപാട് ",
     "Development / വികസനം",
     "Jobs / ജോലി അവസരങ്ങൾ",
     "Education / വിദ്യാഭ്യാസം",

@@ -305,7 +305,7 @@ ${window.location.origin}
                 }
               >
 
-                📤 Share My Opinion
+               🧾 My Opinion
 
               </button>
 
@@ -330,6 +330,49 @@ ${window.location.origin}
             📈 Detailed Analytics
 
           </button>
+
+          <button
+  className="btn btn-danger w-100 py-3 rounded-4 fw-bold fs-5 mt-3 shadow-sm"
+  onClick={async () => {
+
+    try {
+
+      await navigator.share({
+
+        title:
+          "Kerala People's Voice",
+
+        text:
+          "🗳️ Kerala People's Voice\n\nLive Kerala public opinion platform is now live 🔥\n\nShare your opinion:",
+
+        url:
+          "https://kerala-peoples-voice.vercel.app"
+
+      });
+
+    }
+
+    catch (err) {
+
+      console.log(err);
+
+    }
+
+  }}
+>
+
+  🔗 Share Link
+
+</button>
+
+<button
+  className="btn btn-secondary w-100 py-3 rounded-4 fw-bold fs-5 mt-3 shadow-sm"
+  onClick={() => navigate("/help")}
+>
+
+  ❓ Help & About
+
+</button>
 
         </div>
 

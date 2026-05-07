@@ -475,21 +475,21 @@ function Results() {
 
                     <>
 
-                      <button
+                      {/* <button
                         className="btn btn-warning py-3 rounded-4 fw-bold fs-5"
                         onClick={shareCard}
                       >
 
                         📤 Share My Opinion
 
-                      </button>
+                      </button> */}
 
                       <button
                         className="btn btn-success py-3 rounded-4 fw-bold fs-5"
                         onClick={downloadCard}
                       >
 
-                        📸 Download Share Card
+                        📸 Download My Opinion
 
                       </button>
 
